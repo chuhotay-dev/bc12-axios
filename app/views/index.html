@@ -95,6 +95,7 @@
               <!-- BEGIN TÌM KIẾM -->
               <div class="input-group mb-3">
                 <input
+                  id="ipTimKiem"
                   type="text"
                   class="form-control"
                   placeholder="Nhập từ khóa"
@@ -146,38 +147,40 @@
             </div>
             <!-- Modal body -->
             <div class="modal-body">
-              <div class="form-group">
-                <label>Tên Sản Phẩm</label>
-                <input
-                  id="TenSP"
-                  class="form-control"
-                  placeholder="Nhập vào tên sản phẩm"
-                />
-              </div>
-              <div class="form-group">
-                <label>Giá</label>
-                <input
-                  id="GiaSP"
-                  class="form-control"
-                  placeholder="Nhập vào giá"
-                />
-              </div>
-              <div class="form-group">
-                <label>Hình Ảnh</label>
-                <input
-                  id="HinhSP"
-                  class="form-control"
-                  placeholder="Nhập vào hình sản phẩm"
-                />
-              </div>
-              <div class="form-group">
-                <label for="">Mô tả: </label>
-                <textarea
-                  id="moTa"
-                  placeholder="Nhập mô tả sản phẩm"
-                  class="form-control"
-                ></textarea>
-              </div>
+              <form id="formSP">
+                <div class="form-group">
+                  <label>Tên Sản Phẩm</label>
+                  <input
+                    id="TenSP"
+                    class="form-control"
+                    placeholder="Nhập vào tên sản phẩm"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Giá</label>
+                  <input
+                    id="GiaSP"
+                    class="form-control"
+                    placeholder="Nhập vào giá"
+                  />
+                </div>
+                <div class="form-group">
+                  <label>Hình Ảnh</label>
+                  <input
+                    id="HinhSP"
+                    class="form-control"
+                    placeholder="Nhập vào hình sản phẩm"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="">Mô tả: </label>
+                  <textarea
+                    id="moTa"
+                    placeholder="Nhập mô tả sản phẩm"
+                    class="form-control"
+                  ></textarea>
+                </div>
+              </form>
             </div>
             <!-- Modal footer -->
             <div class="modal-footer"></div>
